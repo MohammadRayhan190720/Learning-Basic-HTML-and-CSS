@@ -1,0 +1,11 @@
+.card{
+  background-color: aqua;
+}
+.card__heading{
+  background-color: crimson;
+  color: cornflowerblue;
+  color: darkred;
+}
+.feedback{
+  background-color: brown;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid view</title>
+    <style>
+        *{box-sizing: border-box;}
+        .header { background-color: chocolate;
+            text-align: center;
+            color: white;
+            padding: 1% 5%;}
+
+          .nav-menu { background-color:dodgerblue;
+            padding: 1% 5%;}
+
+          .nav-menu a{color: white;
+                     text-decoration: none;
+                     padding: 10px;
+                     font-size: 20px;
+                     /* display: block; */
+        
+        
+        }
+        .main { background-color: aqua;
+               padding: 1% 5%;}
+
+          .aside { background-color:darkcyan;
+            padding: 1% 5%;
+            text-align: center;} 
+            
+            .footer { background-color:black; 
+                       color: white;
+                    padding: 10px;
+                    font-size: 10px; 
+                    text-align: center;} 
+
+            
+          .col-1 {width: 8.33%;}
+           .col-2 {width: 16.66%;}
+           .col-3 {width: 25%;}
+           .col-4 {width: 33.33%;}
+           .col-5 {width: 41.66%;}
+           .col-6 {width: 50%;}
+           .col-7 {width: 58.33%;}
+           .col-8 {width: 66.66%;}
+           .col-9 {width: 75%;}
+         .col-10 {width: 83.33%;}
+         .col-11 {width: 91.66%;}
+         .col-12 {width: 100%;}
+
+
+          
+        [class*="col-"]{ float: left;
+            padding: 10px;}
+
+            .row::after{content: none;
+                    clear: both;
+                    display: table;}
+        
+            
+                    
+                    
+       
+
+               
+            /*@media screen and (min-width: 600px) {
+                .col-s-1 {width: 8.33%;}
+           .col-s-2 {width: 16.66%;}
+           .col-s-3 {width: 25%;}
+           .col-s-4 {width: 33.33%;}
+           .col-s-5 {width: 41.66%;}
+           .col-s-6 {width: 50%;}
+           .col-s-7 {width: 58.33%;}
+           .col-s-8 {width: 66.66%;}
+           .col-s-9 {width: 75%;}
+         .col-s-10 {width: 83.33%;}
+         .col-s-11 {width: 91.66%;}
+         .col-s-12 {width: 100%;}
+
+                
+            }*/
+
+            
+
+
+
+
+          
+                
+            
+
+
+      
+
+        
+
+       
+
+
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="header"> 
+        <h1>Mohammad Rayhan</h1>
+    </div>
+    <div class="row">
+        <div class="nav-menu col-s-3 col-2">
+            <a href="#"> Home</a>
+            <a href="#"> Contact</a>
+            <a href="#"> About me</a>
+
+         </div>  
+         <div class="main col-s-5 col-7" >
+            <h2> I am a web Developer</h2>
+            <p>I want to be a MERN stack web Developer.Now I am try to learn about Mern stack web Developer.Like as HTML,CSS,Javasprit.18 Days gone,I learn HTML,and half part of CSS.I hope I do well in this Sector.If a man try hard,Its make easy to success</p>
+         </div>
+         <div class="aside col-s-4 col-3">
+            <h2>What I love</h2>
+            <p>I want to be a MERN stack web Developer.Now I am try to learn about Mern stack web Developer.Like as HTML,CSS,Javasprit.18 Days gone,I learn HTML,and half part of CSS.I hope I do well in this Sector.If a man try hard,Its make easy to success</p>
+
+            <h2>What I love</h2>
+            <p>I want to be a MERN stack web Developer.Now I am try to learn about Mern stack web Developer.Like as HTML,CSS,Javasprit.18 Days gone,I learn HTML,and half part of CSS.I hope I do well in this Sector.If a man try hard,Its make easy to success</p>
+
+            <h2>What I love</h2>
+            <p>I want to be a MERN stack web Developer.Now I am try to learn about Mern stack web Developer.Like as HTML,CSS,Javasprit.18 Days gone,I learn HTML,and half part of CSS.I hope I do well in this Sector.If a man try hard,Its make easy to success</p>
+
+
+            <h2>What I love</h2>
+            <p>I want to be a MERN stack web Developer.Now I am try to learn about Mern stack web Developer.Like as HTML,CSS,Javasprit.18 Days gone,I learn HTML,and half part of CSS.I hope I do well in this Sector.If a man try hard,Its make easy to success</p>
+
+
+         </div>
+         <div class="footer">
+            &copy;Rayhan2020;Developer By Rayhan. All rights reserved
+         </div>
+            
+
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+  .custom-btn{
+    border: none;
+    font-family: monospace;
+  }
+  .custom-btn:hover{
+    background-color: #077DFB;
+  }
+  .custom-border{
+    outline: none;
+  }
+</style>
+
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"
+      ><img
+        src="https://qtecsolution.com/static/homepage/assets/images/logo/logo.svg"
+        alt="Logo"
+    /></a>   
+       <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasWithBothOptions"
+      aria-controls="offcanvasWithBothOptions">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+      <div class="collapse navbar-collapse" id="offcanvasWithBothOptions">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3 ">
+          <li class="nav-item">
+            <a class="nav-link active me-2 text-primary" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">Case Studis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">Career</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-primary text-light fs-4 fw-bold" href="#"
+              >Contact</a
+            >
+          </li>
+          
+      
+             
+            </ul>
+          </div>
+        </div>
+  </nav>
+
+  <div
+    class="offcanvas offcanvas-start"
+    data-bs-scroll="true"
+    tabindex="-1"
+    id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="https://qtecsolution.com/static/homepage/assets/images/logo/logo.svg"
+          alt="Logo"
+      /></a>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 fw-medium">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CASE STUDIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOGS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CAREER</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary text-light fs-4 fw-bold" href="#"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

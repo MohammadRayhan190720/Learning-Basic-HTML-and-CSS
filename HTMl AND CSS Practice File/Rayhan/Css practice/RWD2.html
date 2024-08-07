@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Menu</title>
+    <style> 
+    .nav-menu{ 
+        background-color: rgb(207, 126, 126);
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+    }
+    .nav-menu a:hover{ background-color: aqua;}
+    @media  screen and (max-width: 600px){
+        .nav-menu{flex-direction: column;
+                   background-color: brown;}
+    .nav-menu a{background-color: chocolate;
+    margin: 10px 0px;
+        text-align: center;
+    border-radius: 10px;}
+    }
+    </style>
+
+</head>
+<body>
+    <div class="nav-menu">  
+             <a href="#">Home </a>
+             <a href="#">Toutorial </a>
+             <a href="#">About me</a>
+             <a href="#">Contact</a>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+#section1 p{background-color: brown;
+    background-image:url(ocean-3605547_640.jpg)
+
+
+}
+
+
+input:focus{color:blue;}}
+.style1{
+    color: green;
+    text-align: center;
+    text-decoration: overline;
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-shadow: 5px 10px 10px;
+    text-rendering: optimizeSpeed;
+}
+.style2{
+    font-size: larger;
+}
+
+h1,h2,p{font-style: italic;}
+div p{font-weight: bolder;}
+div>p{font-size: 70px;}
+div+p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+div~p{font-style: inherit;}
+h2{color: #059862;}
+span{color: red;}
+.margin{margin: 50px;
+padding: 20px;
+}
+.table{border: 20px solid black;
+border-radius: 10px;
+border-left: brown;
+border-right: #059862;}

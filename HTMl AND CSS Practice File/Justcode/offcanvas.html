@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>offcanvas</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+</head>
+<div>
+  <header class="bg-dark w-100">
+    <div class="container d-flex justify-content-between align-items-center">
+      <img class="p-2 ms-2" src="/image/justcode logo.jpg" alt="logo" style="width: 100px;">
+
+      <div class="d-lg-none d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list-nested" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </div>
+      <nav class="d-none d-lg-block"> 
+        <ul class="d-flex list-unstyled gap-3">
+          <li><a class="text-decoration-none text-white" href="#">HOME</a></li>
+          <li><a class="text-decoration-none text-white"  href="#">CONTACT</a></li>
+          <li><a class="text-decoration-none text-white"  href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+
+  </header>
+  <!-- offcanvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <img class="p-2 ms-2" src="/image/justcode logo.jpg" alt="logo" style="width: 100px;">
+
+  </div>
+  <div class="offcanvas-body bg-primary">
+    <nav class="d-none d-lg-block"> 
+      <ul class="d-flex list-unstyled gap-3">
+        <li><a class="text-decoration-none" href="#">HOME</a></li>
+        <li><a class="text-decoration-none"  href="#">CONTACT</a></li>
+        <li><a class="text-decoration-none"  href="#">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

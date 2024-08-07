@@ -1,0 +1,17 @@
+h1{text-align: center;
+  text-decoration: overline;
+  text-indent:10px ;
+  text-transform: uppercase;
+  text-shadow: 5px 10px 15px;
+  background-color: aqua;
+  width: fit-content;
+  width: 300px;
+  padding: 20px;
+  border: 20px solid ;
+  margin: 20px;
+  background-image: url(/Rayhan.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+
+}

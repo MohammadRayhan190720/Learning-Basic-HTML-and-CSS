@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables and z-index</title>
+    <style>
+        :root{--primary-color:blue;
+              --secondary-color:green;}
+        #div1{
+            width: 500px;
+            height: 400px;
+            background:var(--primary-color);
+            position: absolute;
+            z-index: 1;
+            
+
+        }
+        #div2{
+            width: 500px;
+            height: 400px;
+            background-color:brown;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            
+            
+            
+            
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+
+    
+</body>
+</html>

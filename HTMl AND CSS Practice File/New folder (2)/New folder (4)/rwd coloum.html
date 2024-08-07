@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RWD coloum</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    .coloum{
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+
+    @media screen and (max-width:992px){
+      .coloum { 
+
+       float: left;
+        width: 50%;
+
+}
+
+    }
+
+    @media screen and (max-width:600px){
+      .coloum { 
+
+    width: 100%;
+
+}
+
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="row">
+    <div class="coloum">
+      <h1>Html</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam fuga numquam consequuntur earum dolore expedita dignissimos vel? Eos, fugiat est!</p>
+
+    </div>
+    <div class="coloum">
+      <h1>CSS</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptates accusamus! Autem similique doloribus, ipsum sit nihil necessitatibus adipisci, labore libero impedit quam sint amet.
+      </p>
+      
+    </div>
+
+    <div class="coloum">
+      <h1>Javascript</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, in eligendi aspernatur nostrum natus maiores odit commodi et facilis iusto!</p>
+      
+    </div>
+
+    <div class="coloum">
+      <h1>Recat</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nihil consequuntur atque doloremque accusantium cum excepturi, tempora sapiente quas cupiditate!</p>
+      
+    </div>
+
+
+  </div>
+  
+</body>
+</html>

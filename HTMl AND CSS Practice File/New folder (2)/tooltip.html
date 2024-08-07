@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tooltip</title>
+  <style>
+
+     .tooltip{
+      position: relative;
+     }
+   .tooltip .tooltip-text{
+      visibility: hidden; 
+      font-size: 20px;
+      color: white;
+      background-color: black;
+      position: absolute;
+      top: 20px;
+      left: 10px;
+      width:150px ;
+
+    }
+
+    
+   .tooltip:hover .tooltip-text {
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+  
+    <a href="#" class="tooltip">Facebook 
+    <span class="tooltip-text">Social Midea Platform </span>
+  </a>
+  
+</body>
+</html>

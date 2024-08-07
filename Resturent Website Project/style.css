@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+  /* header start hare */
+  h1{
+    font-size: 60px;
+    color:lightseagreen;
+  }
+  p{
+    font-size: 15px;
+    
+    
+    ;
+  }
+  .desc{
+    width:60%;
+    text-align:center;
+    margin: auto;
+    color:rgb(185, 115, 150);
+   }
+
+ nav{display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(172, 144, 144);
+     
+ }
+ .logo{
+  width: 100px;
+  width: 80px;
+  margin: 15px;
+ }
+ .menu-items-container ul {
+  display: flex;
+  list-style: none;
+  
+ 
+  
+ }
+  .menu-items li{
+ padding: 10px;
+ text-decoration: none;
+  
+ }
+
+ .menu-items li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+   
+  }
+ 
+  /*  header ends hare */
+  /* Main start hare */
+  .banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/groupwork.jpeg);
+    background-position: center;
+    background-size: cover;
+   justify-content: center;
+   align-items: center;
+   margin: auto 0;
+   text-align: center;
+   
+   
+    
+
+  }
+  .banner-info {
+    text-align: center;
+    padding-top: 200px;
+    
+  }
+  @media screen and (min-width: 768px) {
+    .banner-container{width: 100%;
+      height: 100vh;
+      padding-top: 100px;
+
+    }
+    
+  }
+  .digital{
+    color: red;
+  }
+ .btn1{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+ }
+ .btn2{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: red;
+ }
+ .service-container{
+  padding: 20px;
+  height: 100vh;
+  background-blend-mode: overlay;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto ;
+  border-right: 2px dotted red;
+ }
+ .autor-container{
+  display: flex;
+  align-items: center;
+  
+}
+.autor-profile{display: flex;
+  margin-right: 10px;
+  align-items: center;
+  border-right: 2px dotted red;
+  padding-right: 40px;
+
+}
+
+ .autor{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-right: 10px;
+
+ 
+  
+ }
+ .autor-btn{
+  padding-left: 20px;
+  
+ }
+ .coding-icon{
+  width: 160px;
+  height: 150px;
+ }
+.box{
+  box-shadow: 4px 8px 16px gray;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.box-container{
+  display: flex;
+}
+
+
+
+  /* Main Ends hare */

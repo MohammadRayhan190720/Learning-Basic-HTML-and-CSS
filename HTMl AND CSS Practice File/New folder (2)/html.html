@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Html Style</title>
+</head>
+<body>
+  <h1 style="text-align: right; color: aqua;">Bangladesh</h1>
+  <!-- use of entity tag -->
+  &copy;copyright <br>
+  My name is &nbsp; &nbsp; Rayhan
+  &lt; body  &gt;
+  <ol start ="9">
+    <li>Bangladesh</li>
+    <li>India
+    </li>
+    <li>Japan</li>
+  </ol>
+  <ul type="">
+    <li>Bangladesh</li>
+    <li>India </li>
+    <li>Japan</li>
+  </ul>
+  <img src="/Rayhan.jpg" height="300px" width="200px" alt="this is rayhan" align="right"/>
+  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <br>
+  <table border="2">
+    <thead><h3>Student Datails </h3></thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3">Gpa</th>
+      <th rowspan="2">Roll</th>
+      <th>Year</th>
+       </tr>
+       <tr>
+        <td>Rafi</td>
+        <td>4.00</td>
+        <td>501</td>
+        <td>2023</td>
+       </tr>
+       <tr>
+        <td>Rafi</td>
+        <td>4.00</td>
+        <td>501</td>
+        <td>2023</td>
+       </tr>
+       <tr>
+        <td>Rafi</td>
+        <td>4.00</td>
+        <td>501</td>
+        <td>2023</td>
+       </tr>
+
+  </table>
+  <form>
+    <h1>Regeststion Form</h1>
+
+    <div>
+      <label for="Fullname">Fullname:</label>
+      <input type="text" id="fullname" name="fullname"/>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"/>
+    </div>
+    <div>
+      <label for="Password">Password:</label>
+      <input type="password" id="password" name="password"/>
+    </div>
+
+    <div>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob"/>
+    </div>
+    <div>
+      <label for="photo">Choose Your File : </label>
+      <input type="file" id="photo" name="photo" required/>
+    </div>
+
+    <div>
+      <label for="Gender">Gender:</label>
+      <input type="radio" id="mail" name="Gender" value="mail"/> Mail
+      <input type="radio" id="female" name="Gender" value="female"/> Female
+    </div>
+    <div>
+      <label for="Religion">Religion:</label>
+      <input checked type="checkbox" id="muslim" name="muslim" value="muslim"/> Musalim
+      <input type="checkbox" id="Hindu" name="Hindu" value="Hindu"/> Hindu
+    </div>
+
+    <div>
+      <label for="Depertmant">Depertment</label>
+      <select name="Depertmant">
+        <option value="cse">CSE</option>
+        <option value="cse">EEE</option>
+        <option value="cse" selected>LLB</option>
+      </select>
+    </div>
+
+    <label for="Massage">Massage:</label><br>
+    <textarea cols="20" rows="15">Your Massage</textarea><br>
+
+    <input type="submit" value="Regeststion">
+    <input type="reset" value=" clear">
+  </form>
+  
+</body>
+</html>

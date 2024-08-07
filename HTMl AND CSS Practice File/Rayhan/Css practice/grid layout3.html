@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Use of Grid Area</title>
+  <style>
+    .item1{grid-area: Header;}
+    .item2{grid-area: Menu;}
+    .item3{grid-area: Main;}
+    .item4{grid-area: Aside;}
+    .item5{grid-area: Footer;}
+
+    .grid-container{display: grid;
+                    grid-template-areas: 
+                    'Header Header Header Header Header Header '
+                    'Menu Main Main Main Aside Aside'
+                    'Footer Footer Footer Footer Footer Footer'
+                    ;
+    
+    
+    }
+    .grid-container> div{background-color: cadetblue;
+                         border: 1px solid black;
+                        text-align: center;}
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="item1"> 
+      <h1>Header</h1>
+    </div>
+    <div class="item2" > 
+      <h1>Menu</h1>
+    </div>
+    <div class="item3" > 
+      <h1>Main</h1>
+    </div>
+    <div class="item4" > 
+      <h1>Aside</h1>
+    </div>
+    <div class="item5"> 
+      <h1>Footer</h1>
+    </div>
+    
+
+
+  </div>
+  
+</body>
+</html>

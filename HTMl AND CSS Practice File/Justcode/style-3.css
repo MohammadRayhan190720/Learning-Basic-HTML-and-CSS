@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* facebook style start hare */
+header{
+  max-width: 700px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+ 
+
+}
+.title-container{ margin-left: 50px;
+  
+  
+}
+.title-container-style{
+  border: 1px solid rgb(226, 221, 221);
+  border-radius: 50%;
+  padding: 5px;
+  border-style: none;
+  background-color: rgb(233, 224, 224);
+}
+.title-container i{
+  margin-left: 25px;
+  
+}
+h1{color:#0866FF ;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-right: 100px;
+  ;
+
+}
+.nav-menu{
+  
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+.nav-menu i{
+  padding: 20px;
+}
+/* facebook ends hare */
+/* Youtube  start hare */
+nav{
+  max-width: 700px;
+}
+.youtube-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-right: px;
+}
+.youtube-logo{
+  /* display: flex; */
+}
+.youtube-menu{
+  margin-left: 50px;
+}
+.youtube-menu i{
+  padding: 10px;
+  /* margin-left: 10px; */
+}
+.style{
+  color: red;
+}
+span{
+  font-size:40px;
+  
+}
+.style1{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: red;
+  border-style: none;
+}
+/* Youtube ends hare */
+/* footer strat hare */
+footer{
+  max-width: 700px;
+  margin-top: 150px;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+  padding: 50px;
+
+}
+.footer-menu i{
+  margin: 20px;
+  ;
+}
+/* Footer ends hare */

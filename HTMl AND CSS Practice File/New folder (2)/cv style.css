@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eee;
+  }
+}
+  #container {
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+
+  }
+  header {
+
+  }
+  h1 h2 h3 h4 h5 h6{
+    color: #11999e;
+  }
+  .img-style{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+    float: left;
+  }
+  .img-bio{ float: left;
+    padding: 30px;
+
+  }
+  .personal-contact{
+    float: right;
+    margin: 30px;
+
+  }
+  .personal-contact ul{
+    padding: ;
+
+  }
+  .personal-contact li{
+    list-style-type: none;
+    font-weight: bold;
+    padding:;
+
+  }
+  .personal-contact li a{ text-decoration: none;
+    color: teal;
+
+  }
+  .personal-contact li a:hover{ 
+    text-decoration: underline;
+    color: tomato;
+    
+
+  }
+  
+  .div-clear{
+    clear: both;
+  }
